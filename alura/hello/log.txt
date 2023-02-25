@@ -1,0 +1,6 @@
+25/02/2023 15:54:18https://random-status-code.herokuapp.com/- online: false
+25/02/2023 15:54:18https://www.alura.com.br- online: true
+25/02/2023 15:54:19https://www.caelum.com.br- online: true
+25/02/2023 15:54:24https://random-status-code.herokuapp.com/- online: false
+25/02/2023 15:54:25https://www.alura.com.br- online: true
+25/02/2023 15:54:25https://www.caelum.com.br- online: true
