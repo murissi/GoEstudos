@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -26,6 +28,7 @@ func main() {
 		fmt.Println("3")
 	default:
 		fmt.Println("Numero Invalido")
+
 	}
 
 	if numeroSelecionado%2 == 0 {
@@ -51,4 +54,23 @@ func main() {
 	} else {
 		fmt.Printf("%v não é um numero primo\n", numeroPrimo)
 	}
+
+	for i := 0; i <= 10; i++ {
+		if i%2 == 0 {
+			fmt.Println("Par", i)
+		} else {
+			fmt.Println("Primo", i)
+		}
+	}
+
+	for i := 1; i < 100; i++ {
+		if i%3 == 0 && i%5 == 0 {
+			fmt.Println("FizzBuzz", i)
+		} else if i%5 == 0 {
+			fmt.Println("Buzz", i)
+		} else if i%3 == 0 {
+			fmt.Println("Fizz", i)
+		}
+	}
+
 }
