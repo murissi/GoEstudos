@@ -19,4 +19,5 @@ func main() {
 	} else {
 		fmt.Printf("%v não é Primo\n", numero)
 	}
+
 }
